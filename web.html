@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniRide Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .icon {
+            display: flex;
+            align-items: flex-end;
+            margin-right: 15px;
+        }
+
+        .car, .bus {
+            position: relative;
+            margin: 0 5px;
+        }
+
+        .car {
+            width: 50px;
+            height: 25px;
+            background-color: #007BFF;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .car::before {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 10px;
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        .car::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 10px;
+            width: 10px;
+            height: 10px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        .bus {
+            width: 60px;
+            height: 30px;
+            background-color: #28A745;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .bus::before {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 10px;
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            border-radius: 50%;
+        }
+
+        .bus::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 10px;
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            border-radius: 50%;
+        }
+.bus
+        .uni {
+            color: #007BFF; /* Color for "UNI" */
+        }
+
+        .ride {
+            color: #28A745; /* Color for "RIDE" */
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="icon">
+            <div class="car"></div>
+            <div class="bus"></div>
+        </div>
+        <span class="uni">Uni</span><span class="ride">Ride</span>
+    </div>
+</body>
+</html>

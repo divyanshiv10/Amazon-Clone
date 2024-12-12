@@ -1,0 +1,21 @@
+p{
+    text-align:start;
+}
+h1{
+    text-align: center;
+    text-decoration: red underline;
+  
+}
+
+a{
+    text-decoration: none;
+}
+#one{
+    font-size: 10 px;
+    font-family:cursive;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#two{
+    font-family: Arial, Helvetica, sans-serif;
+}

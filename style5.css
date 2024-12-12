@@ -1,0 +1,8 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-color: brown;
+    border-radius: 20px;
+    padding: 50px;
+}
